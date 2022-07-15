@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
@@ -23,7 +24,8 @@
             id="surname"
             name="surname"
             required
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div class="form-field">
           <label for="name">Name:</label>
@@ -32,7 +34,8 @@
             id="name"
             name="name"
             required
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div class="form-field">
           <label for="howOldAreYou">How old are You?</label>
@@ -42,14 +45,16 @@
             name="age"
             min="1"
             max="100"
-            value="12">
+            value="12"
+          >
         </div>
         <div class="form-field">
           <label for="fullDateOfBirth">Full date of birth:</label>
           <input 
             type="date" 
             id="fullDateOfBirth" 
-            name="dateOfBirth">
+            name="dateOfBirth"
+          >
         </div>
         <div class="last-form-field">
           <label for="terms">I accept the term of the agreement</label>
@@ -57,7 +62,8 @@
             type="checkbox" 
             id="terms" 
             name="terms" 
-            required>
+            required
+          >
         </div>
       </fieldset>
 
@@ -70,7 +76,8 @@
             name="email"
             id="email"
             placeholder="email@example.com"
-            required>
+            required
+          >
         </div>
         <div class="last-form-field">
           <label for="password">Password:</label>
@@ -79,7 +86,8 @@
             name="password"
             id="password"
             required
-            minlength="6">
+            minlength="6"
+          >
         </div>
       </fieldset>
 
@@ -91,13 +99,15 @@
             <input 
               type="radio" 
               name="cats" 
-              value="yes"> Yes
+              value="yes"
+            > Yes
           </label>
           <label> 
             <input 
               type="radio" 
               name="cats" 
-              value="no"> No 
+              value="no"
+            > No 
           </label>
         </div>
 
@@ -108,12 +118,13 @@
           </label>
         </div>
         <div class="form-field">
-          <label
-            >What time do you go to bed?
+          <label>
+            What time do you go to bed?
             <input 
               type="time" 
               name="sleepTime" 
-              step="2">
+              step="2"
+            >
           </label>
         </div>
         <div class="form-field">
@@ -128,14 +139,15 @@
           </label>
         </div>
         <div class="last-form-field">
-          <label
-            >How do you rate our work?
+          <label>
+            How do you rate our work?
             <input 
               type="range" 
               name="ourWork" 
               min="0" 
               max="10" 
-              value="0">
+              value="0"
+            >
           </label>
         </div>
       </fieldset>
@@ -143,8 +155,7 @@
       <fieldset class="groups">
         <legend>Additional info:</legend>
         <div class="form-field">
-          <label
-            >Comments:
+          <label>Comments:
             <textarea
               name="comments"
               cols="20"
